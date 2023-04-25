@@ -1,0 +1,23 @@
+.home{
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    margin-left: 5px;
+    text-decoration: none;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: var(--color-golden);
+    padding: 12px;
+}
+
+.home:hover{
+    background-color: var(--color-golden);
+    color: black;
+}
+
+.home:hover::after{
+    content: " Back To Home";
+}
